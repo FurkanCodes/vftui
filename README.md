@@ -21,8 +21,8 @@ This is an educational project.
 - ✅ Code quality tools with **ESLint**, **Prettier** and **Stylelint**.
 
 ## Documentation
+[[Docs](https://664d15a977435d5ea22b2866-knggiyyhkp.chromatic.com/)]
 
-https://664d15a977435d5ea22b2866-knggiyyhkp.chromatic.com/
 
 ## Use in your project
 ```bash
