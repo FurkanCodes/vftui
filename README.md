@@ -20,6 +20,15 @@ This is an educational project.
 
 - ✅ Code quality tools with **ESLint**, **Prettier** and **Stylelint**.
 
+## Use in your project
+```bash
+  npm i vftui
+```
+There are 4 components at the moment.
+```bash
+  import {Button, Rating, Card, Title} from "vftui"
+```
+
 ## 🤖 Scripts
 
 |      Script       | Function                                                                           |
@@ -27,3 +36,37 @@ This is an educational project.
 |      `build`      | Build the `dist`, with types declarations, after checking types with TypeScript.   |
 |    `storybook`    | Start a Storybook development server.                                              |
 | `build-storybook` | Build the Storybook `dist`.                                                        |
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Authors
+
+- [@furkancodes](https://www.github.com/furkancodes)
+
