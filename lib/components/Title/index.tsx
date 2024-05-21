@@ -3,7 +3,7 @@ import clsx from "clsx";
 
 interface ComponentProps extends React.ComponentProps<"h1"> {
   variant?: "primary";
-  size?: "small" | "medium" | "large"; // Add size property
+  size?: "small" | "medium" | "large";
   title: string;
 }
 

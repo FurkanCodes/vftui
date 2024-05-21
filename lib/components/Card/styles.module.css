@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.header {
+  margin-bottom: 1rem; /* Space between header and content */
+  font-family: "Poppins", sans-serif; /* Set Poppins as the default font */
+  color: inherit; /* Use inherited color or specify a default */
+}
+
+.header--primary {
+  color: crimson; /* Primary color */
+  font-family: "Poppins", sans-serif; /* Set Poppins as the default font */
+}
+
+.header--secondary {
+  color: rgb(163, 32, 59); /* Primary color */
+  font-family: "Poppins", sans-serif; /* Set Poppins as the default font */
+}
+
+.header--small {
+  font-size: 1.2rem; /* Smaller font size */
+  line-height: 1.1; /* Slightly tighter line height */
+}
+
+.header--medium {
+  font-size: 1.5rem; /* Medium font size */
+  line-height: 1.2; /* Standard line height */
+}
+
+.header--large {
+  font-size: 2rem; /* Larger font size */
+  line-height: 1.3; /* Slightly taller line height */
+}
+
+.card {
+  border: 1px solid; /* Adjust border thickness and color as needed */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 400px; /* Example max-width */
+  font-family: "Poppins", sans-serif; /* Set Poppins as the default font */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adds shadow */
+  backdrop-filter: blur(10px); /* Makes the background blurry */
+}
+
+.cardContent {
+  background-color: #fff;
+  border-radius: 8px;
+  border-top: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}

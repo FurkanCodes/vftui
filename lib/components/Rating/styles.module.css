@@ -1,0 +1,38 @@
+/* styles.module.css */
+
+.span {
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  :hover {
+    color: grey;
+  }
+}
+
+.star {
+  font-size: large;
+  cursor: pointer; /* Added cursor property */
+}
+
+.starActive,
+.starInactive {
+  color: red; /* Adjusted color for active state */
+}
+
+.starInactive {
+  color: #ccc; /* Adjusted color for inactive state */
+}
+
+.rating-secondary {
+  background-color: black;
+  color: white;
+  padding: 6px;
+}
+
+/* Use the gap property to control spacing between stars */
+.starsContainer {
+  display: flex;
+}

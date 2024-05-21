@@ -2,9 +2,11 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
-import { Button } from "../lib/main";
+import { Button, Rating } from "../lib/main";
 import "./App.css";
 import { Title } from "../lib/components/Title";
+import { Card } from "../lib/components/Card";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -34,6 +36,20 @@ function App() {
         title={"asf"}
         className=" bg-black text-white p-4 flex justify-center"
       ></Title>
+      <Card header="My Custom asf" className="text-2xl md:text-lg">
+        <p>This is some content inside the card.</p>
+        <p>This is some content inside the card.</p>
+        <p>This is some content inside the card.</p>
+        <p>This is some content inside the card.</p>
+        <p>This is some content inside the card.</p>
+        <p>This is some content inside the card.</p>
+        <p>This is some content inside the card.</p>
+      </Card>
+      <Rating
+        count={2}
+        onChange={(value) => console.log(value)}
+        theme={"primary"}
+      />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
