@@ -44,13 +44,13 @@ There are 4 components at the moment.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone git@github.com:FurkanCodes/vftui.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd vftui
 ```
 
 Install dependencies
