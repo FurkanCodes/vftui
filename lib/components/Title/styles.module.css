@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.title {
+  --color: black;
+  font-family: "Poppins", sans-serif; /* Set Poppins as the default font */
+  color: var(--color);
+}
+
+.title--primary {
+  --color: crimson;
+}
+
+.title--small {
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.title--medium {
+  font-size: 1.2rem;
+  padding: 0.6rem 0.8rem;
+}
+
+.title--large {
+  font-size: 4rem;
+  padding: 0.8rem 1rem;
+}

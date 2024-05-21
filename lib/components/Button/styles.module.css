@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.button {
+  --bg-color: none;
+  background-color: var(--bg-color);
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif; /* Set Poppins as the default font */
+}
+
+.button--primary {
+  --bg-color: rgb(91, 85, 255);
+  color: rgb(255, 255, 255);
+}
+
+.button--neobrutal {
+  --bg-color: rgb(94, 255, 0);
+}
+
+.button--small {
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.button--medium {
+  font-size: 1.2rem;
+  padding: 0.6rem 0.8rem;
+}
+
+.button--large {
+  font-size: 1.4rem;
+  padding: 0.8rem 1rem;
+}
+
+.button:disabled {
+  --bg-color: rgba(
+    91,
+    85,
+    255,
+    0.5
+  ); /* Paler shade for disabled primary button */
+  cursor: not-allowed; /* Change cursor to indicate the button is disabled */
+}
+
+.button--primary:disabled {
+  --bg-color: rgba(
+    91,
+    85,
+    255,
+    0.5
+  ); /* Paler shade for disabled primary button */
+}
+
+.button--neobrutal:disabled {
+  --bg-color: rgba(
+    94,
+    255,
+    0,
+    0.5
+  ); /* Paler shade for disabled neobrutal button */
+}
+
+.button--small:disabled {
+  --bg-color: rgba(
+    91,
+    85,
+    255,
+    0.5
+  ); /* Paler shade for disabled small button */
+}
+
+.button--medium:disabled {
+  --bg-color: rgba(
+    91,
+    85,
+    255,
+    0.5
+  ); /* Paler shade for disabled medium button */
+}
+
+.button--large:disabled {
+  --bg-color: rgba(
+    91,
+    85,
+    255,
+    0.5
+  ); /* Paler shade for disabled large button */
+}
